@@ -1,4 +1,4 @@
-# poo practice 1 / animal animal characteristics
+# poo practice 1 / animal characteristics
 
 ## **Génére 10 animaux avec leur nom, couleur, alimentation ... grâce a un boutton.**
 
