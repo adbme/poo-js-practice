@@ -175,15 +175,6 @@ let Animal11 = new Animal("https://www.rts.ch/2019/01/21/11/28/10155321.image?w=
 
 
 
-// let boutton = document.getElementById("generate");
-
-
-// boutton.onclick = function generateAnimal() {
-
-//     let animales = document.getElementById("bigDiv");
-
-//     animales.innerHTML = 'caca'
-// }
 
 
 
@@ -191,16 +182,33 @@ let boutton = document.getElementById("generate");
 
 boutton.onclick = function generateAnimal() {
     let animales = document.getElementById("bigDiv");
+
     animales.innerHTML =
-        '<img src="' + Animal2.image + '">' +
-        '<p>Nom: ' + Animal3.nom + '</p>' +
-        '<p>Couleur: ' + Animal3.couleur + '</p>' +
-        '<p>Alimentation: ' + Animal3.alimentation + '</p>' +
-        '<p>Taille: ' + Animal3.taille + '</p>' +
-        '<p>Poids: ' + Animal3.poids + '</p>' +
-        '<p>Habitat: ' + Animal3.habitat + '</p>' +
-        '<p>Vitesse: ' + Animal3.vitesse + '</p>' +
-        '<p>Durée de vie: ' + Animal3.dureeDeVie + '</p>';
+
+        "<img src='" + Animal2.image + "'>" +
+        Animal2.image + "<br>" + "<br>" +
+        "Nom :" + Animal3.nom + "<br>" + "<br>" +
+        "Couleur :" + Animal3.couleur + "<br>" + "<br>" +
+        "Alimentation :" + Animal3.alimentation + "<br>" + "<br>" +
+        "Taille :" + Animal3.taille + "<br>" + "<br>" +
+        "Poids:" + Animal3.poids + "<br>" + "<br>" +
+        "Habitat :" + Animal3.habitat + "<br>" +
+        "Vitesse :" + Animal3.vitesse + "<br>" + "<br>" +
+        "Durée de vie :" + Animal3.dureeDeVie
 }
+
+
+// function imageeee() {
+//     let bigContainer = document.getElementById("bigDiv");
+//     let imageContainer = document.createElement("img");
+//     imageContainer.src = Animal2.image;
+
+//     bigContainer.appendChild(imageContainer);
+
+
+// }
+
+// let imageVar = imageeee();
+
 
 
