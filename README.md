@@ -31,7 +31,7 @@
 
 - lui mettre les propriétées : **image de l’animal, nom, couleur, alimentation, taille moyenne, poids moyen, habitat, vitesse et durée de vie moyenne**
 
-- Créer 10 variables qui contiennent un new de la classe parent Animal (Animal1, Animal2, Animal3, etc)
+- Créer 10 variables qui contiennent une nouvelle instance (new) de la classe parent Animal (Animal1, Animal2, Animal3, etc)
 
 - Faire un bouton html qui permet de générer un animal parmis les 10 grâce à une boucle
 
