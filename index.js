@@ -59,7 +59,7 @@ boutton.onclick = function generateAnimal() {
 
 
     if (count == 1) {
-        imageAnimal.src = Animal10.image
+        imageAnimal.src = Animal1.image
         nomAnimal.innerHTML = Animal1.nom
         couleurAnimal.innerHTML = Animal1.couleur
         alimentationAnimal.innerHTML = Animal1.alimentation
@@ -69,6 +69,7 @@ boutton.onclick = function generateAnimal() {
         vitesseAnimal.innerHTML = Animal1.vitesse
     }
     else if (count == 2) {
+        imageAnimal.src = Animal2.image
         nomAnimal.innerHTML = Animal2.nom
         couleurAnimal.innerHTML = Animal2.couleur
         alimentationAnimal.innerHTML = Animal2.alimentation
@@ -80,7 +81,7 @@ boutton.onclick = function generateAnimal() {
 
 
     else if (count == 3) {
-        console.log("deuxième partie");
+        imageAnimal.src = Animal3.image
         nomAnimal.innerHTML = Animal3.nom
         couleurAnimal.innerHTML = Animal3.couleur
         alimentationAnimal.innerHTML = Animal3.alimentation
@@ -90,7 +91,7 @@ boutton.onclick = function generateAnimal() {
         vitesseAnimal.innerHTML = Animal3.vitesse
     }
     else if (count == 4) {
-        console.log("troisième partie");
+        imageAnimal.src = Animal4.image
         nomAnimal.innerHTML = Anima4.nom
         couleurAnimal.innerHTML = Animal4.couleur
         alimentationAnimal.innerHTML = Animal4.alimentation
