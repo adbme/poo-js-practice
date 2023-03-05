@@ -92,7 +92,7 @@ boutton.onclick = function generateAnimal() {
     }
     else if (count == 4) {
         imageAnimal.src = Animal4.image
-        nomAnimal.innerHTML = Anima4.nom
+        nomAnimal.innerHTML = Animal4.nom
         couleurAnimal.innerHTML = Animal4.couleur
         alimentationAnimal.innerHTML = Animal4.alimentation
         tailleAnimal.innerHTML = Animal4.taille
